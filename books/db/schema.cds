@@ -8,7 +8,7 @@ entity Books{
    stock:Integer;
 
 
-// Author:Association to Author;
+Author:Association to Author;
 
 }
  //(Author-Book:One author can write many books)
@@ -18,7 +18,7 @@ entity Books{
   email:String;
   country:String;
   
-//   books: Association to many Books on books.Author = $self;
+  books: Association to many Books on books.Author = $self;
  }
 
  
