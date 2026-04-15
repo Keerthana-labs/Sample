@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Finding Pincode Location</title>
+</head>
+
+<body>
+
+<h2>Check Location Details Using Pincode</h2>
+<input type="text" id="pincodeInput" placeholder="Enter pincode">
+<button onclick="getLocation()">Get Location</button>
+
+<br><br>
+
+<iframe
+  id="mapFrame"
+  src="https://www.google.com/maps?q=20.5937,78.9629&z=5&output=embed"
+  width="800"
+  height="450"
+  allowfullscreen="">
+</iframe>
+
+<div id="result" style="margin-top:20px;"></div>
+
+<script>
+
+function getLocation() {
+
+  var pincode = document.getElementById("pincodeInput").value;
+  if (pincode === "") {
+    alert("Please enter pincode");
+    return;
+  }
+
+  var url = "/odata/v4/geo/GetLocation(pincode='" + pincode + "')";
+
+  fetch(url)
+  .then(function(response) {
+      if (!response.ok) {
+        return req.error("Something went wrong");
+      }
+      return response.json();
+    })
+
+    .then(function(data) {
+
+
+  var DivResult = document.getElementById("result");
+
+      DivResult.innerHTML =
+        "<b>Pincode:</b> " + data.pincode + "<br>" +
+        "<b>Latitude:</b> " + data.latitude + "<br>" +
+        "<b>Longitude:</b> " + data.longitude + "<br>" +
+        "<b>Place:</b> " + data.place;
+
+// Here I update the map
+var map = document.getElementById("mapFrame");
+map.src = "https://www.google.com/maps?q=" + data.latitude + "," + data.longitude + "&z=15&output=embed";})
+
+.catch(function(error) {
+  document.getElementById("result").innerHTML =
+  "<p style='color:red'>Error: " + error.message + "</p>";
+});
+
+}
+
+</script>
+
+</body>
+</html>
