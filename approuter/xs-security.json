@@ -1,0 +1,45 @@
+{
+  "xsappname": "xsuaa-approuter",
+  "tenant-mode": "dedicated",
+  "scopes": [
+    {
+      "name": "$XSAPPNAME.Patient",
+      "description": "Patient"
+    },
+    {
+      "name": "$XSAPPNAME.HospitalDean",
+      "description": "HospitalDean"
+    },
+    {
+      "name": "$XSAPPNAME.Admin",
+      "description": "Admin"
+    }
+  ],
+  "attributes": [],
+  "role-templates": [
+    {
+      "name": "Patient",
+      "description": "generated",
+      "scope-references": [
+        "$XSAPPNAME.Patient"
+      ],
+      "attribute-references": []
+    },
+    {
+      "name": "HospitalDean",
+      "description": "generated",
+      "scope-references": [
+        "$XSAPPNAME.HospitalDean"
+      ],
+      "attribute-references": []
+    },
+    {
+      "name": "Admin",
+      "description": "generated",
+      "scope-references": [
+        "$XSAPPNAME.Admin"
+      ],
+      "attribute-references": []
+    }
+  ]
+}

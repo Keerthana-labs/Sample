@@ -1,0 +1,52 @@
+{
+  "xsappname": "xsuaaAuth",
+  "tenantMode": "dedicated",
+  "scopes": [
+    {
+      "name": "$XSAPPNAME.Passenger",
+      "description": "Passenger"
+    },
+    {
+      "name": "$XSAPPNAME.Driver",
+      "description": "Driver"
+    },
+    {
+      "name": "$XSAPPNAME.Manager",
+      "description": "Manager"
+    }
+  ],
+  "attributes": [],
+  "role-templates": [
+    {
+      "name": "Passenger",
+      "description": "generated",
+      "scope-references": [
+        "$XSAPPNAME.Passenger"
+      ],
+      "attribute-references": []
+    },
+    {
+      "name": "Driver",
+      "description": "generated",
+      "scope-references": [
+        "$XSAPPNAME.Driver"
+      ],
+      "attribute-references": []
+    },
+    {
+      "name": "Manager",
+      "description": "generated",
+      "scope-references": [
+        "$XSAPPNAME.Manager"
+      ],
+      "attribute-references": []
+    }
+  ],
+  "oauth2-configuration": {
+    "redirect-uris": [
+      "http://localhost:5000/**",
+      "https://*.cfapps.us10.hana.ondemand.com/**",
+      "https://*.applicationstudio.cloud.sap/**"
+    ]
+  }
+}

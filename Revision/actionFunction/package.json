@@ -1,8 +1,10 @@
 {
-  "name": "NewXsuaa",
+  "name": "actionFunction",
   "version": "1.0.0",
   "dependencies": {
-    "@sap/cds": "^9"
+    "@cap-js/hana": "^2.7.0",
+    "@sap/cds": "^9",
+    "sqlite": "^5.1.1"
   },
   "devDependencies": {
     "@cap-js/sqlite": "^2"

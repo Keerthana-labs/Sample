@@ -1,0 +1,1260 @@
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:29:37.146257] Updated app with guid f21bbc8d-50f0-4b1e-afa6-c560792baa58 ({"lifecycle"=>{"data"=>{"buildpacks"=>["nodejs_buildpack"]}, "type"=>"buildpack"}}) (STDOUT, API)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:29:37.239633] Updating process: "web" (STDOUT, API)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:29:39.278820] Cell d1cc041a-d5a1-41d6-b9f6-6cda736ce3f0 creating container for instance 7bf5565a-cbe9-4e74-8238-2104e09ecec9 (STDOUT, CELL)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:29:40.027484] Security group rules were updated (STDOUT, CELL)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:29:40.118652] Cell d1cc041a-d5a1-41d6-b9f6-6cda736ce3f0 successfully created container for instance 7bf5565a-cbe9-4e74-8238-2104e09ecec9 (STDOUT, CELL)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:29:44.868414] Invoking pre-start scripts. (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:29:45.100292] Invoking start command. (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:29:45.557405] > start (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:29:45.557429] > node node_modules/@sap/hdi-deploy/deploy.js --use-hdb --parameter com.sap.hana.di.table/try_fast_table_migration=true (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:29:45.721392] VCAP_SERVICES: (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:29:45.721632] { (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:29:45.721655] "hana": [ (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:29:45.721667] { (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:29:45.721671] "name": "sampleXSUAA-db", (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:29:45.721674] "label": "hana", (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:29:45.721676] "plan": "hdi-shared", (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:29:45.721679] "credentials": { (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:29:45.721683] "schema": "F3F37BBE6A554503951E9BA9F0961A85", (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:29:45.721713] "database_id": "8caed5d2-1e6d-4f35-aacd-591f0ecaa81b", (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:29:45.721725] "user": "F3F37BBE6A554503951E9BA9F0961A85_85SZCDDH55P5UPHXGKV3W4Q64_RT", (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:29:45.721730] "hdi_user": "F3F37BBE6A554503951E9BA9F0961A85_85SZCDDH55P5UPHXGKV3W4Q64_DT" (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:29:45.721732] }, (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:29:45.721735] "tags": [ (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:29:45.721737] "hana", (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:29:45.721740] "database", (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:29:45.721742] "relational" (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:29:45.721748] ] (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:29:45.721751] } (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:29:45.721802] ] (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:29:45.721804] } (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:29:46.085035] @sap/hdi-deploy, version 5.6.1 (mode default), server version 4.00.000.00.1770107678 (4.0.0.0), cloud version 2025.40.12, node version 24.13.0, HDI version 1016, container API version 1007 (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:29:46.085283] Deployment started at 2026-04-16 07:29:46 (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:29:46.085525] Using hdb@2.27.1 for connection (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:29:46.108878] No ignore file at /home/vcap/app/.hdiignore. (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:29:46.109472] Collecting files... (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:29:46.114066] Collecting files... ok (0s 4ms) (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:29:46.114126] 2 directories collected (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:29:46.114188] 7 files collected (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:29:46.114231] 0 reusable modules collected (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:29:46.114279] Target service: sampleXSUAA-db (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:29:46.256409] Previous build with request ID 1552 finished at 2026-04-16T07:25:58.231 with status Rolled back and message: Starting make in the container "F3F37BBE6A554503951E9BA9F0961A85" with 0 files to deploy, 0 files to undeploy... ok. (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:29:46.256602] Processing revoke files... (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:29:46.256812] Processing revoke files... ok (0s 0ms) (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:29:46.257037] Processing grants files... (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:29:46.257220] Processing grants files... ok (0s 0ms) (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:29:46.259727] Preprocessing files... (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:29:46.260103] Preprocessing files... ok (0s 0ms) (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:29:46.260310] Connecting to the container "F3F37BBE6A554503951E9BA9F0961A85"... (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:29:46.321293] Connecting to the container "F3F37BBE6A554503951E9BA9F0961A85"... ok (0s 61ms) (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:29:46.321396] Locking the container "F3F37BBE6A554503951E9BA9F0961A85"... (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:29:46.442878] Locking the container "F3F37BBE6A554503951E9BA9F0961A85"... ok (0s 122ms) (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:29:46.443065] Synchronizing files with the container "F3F37BBE6A554503951E9BA9F0961A85"... (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:29:46.630106] Deleting files... (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:29:46.764847] Deleting files... ok (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:29:46.764871] Writing files... (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:29:46.765241] Writing 2 items (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:29:46.908253] Writing files... ok (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:29:46.908414] Synchronizing files with the container "F3F37BBE6A554503951E9BA9F0961A85"... ok (0s 466ms) (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:29:46.908755] added files: [] (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:29:46.908805] modified files: [] (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:29:46.908865] deleted files: [] (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:29:46.908934] 0 modified or added files are scheduled for deploy based on delta detection (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:29:46.909459] 0 deleted files are scheduled for undeploy based on delta detection (filtered by undeploy allowlist) (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:29:46.909576] 0 files are scheduled for deploy based on explicit specification (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:29:46.909619] 0 files are scheduled for undeploy based on explicit specification (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:29:46.909670] Deploying to the container "F3F37BBE6A554503951E9BA9F0961A85"... (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:29:47.176683] Starting make in the container "F3F37BBE6A554503951E9BA9F0961A85" with 0 files to deploy, 0 files to undeploy... (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:29:47.176705] Disabling table replication for the container schema "F3F37BBE6A554503951E9BA9F0961A85"... (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:29:47.176709] Disabling table replication for the container schema "F3F37BBE6A554503951E9BA9F0961A85"... ok (0s 15ms) (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:29:47.176725] Migrating libraries... (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:29:47.176853] Migrating libraries... ok (0s 13ms) (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:29:47.176871] Making... (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:29:47.176873] Preparing... (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:29:47.176876] Preparing... ok (0s 0ms) (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:29:47.176888] Preparing the make transaction... (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:29:47.177042] Preparing the make transaction... ok (0s 9ms) (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:29:47.177056] Calculating dependencies... (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:29:47.177099] Expanding... (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:29:47.177161] Expanding... ok (0s 5ms) (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:29:47.177208] Precompiling... (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:29:47.177262] Precompiling... ok (0s 0ms) (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:29:47.177324] Merging... (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:29:47.177401] Merging... ok (0s 0ms) (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:29:47.177411] Calculating dependencies... ok (0s 5ms) (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:29:47.177445] No make necessary (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:29:47.177506] Making... ok (0s 44ms) (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:29:47.177557] Enabling table replication for the container schema "F3F37BBE6A554503951E9BA9F0961A85"... (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:29:47.177660] Enabling table replication for the container schema "F3F37BBE6A554503951E9BA9F0961A85"... ok (0s 8ms) (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:29:47.177722] Starting make in the container "F3F37BBE6A554503951E9BA9F0961A85" with 0 files to deploy, 0 files to undeploy... ok (0s 88ms) (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:29:47.178119] Deploying to the container "F3F37BBE6A554503951E9BA9F0961A85"... ok (0s 268ms) (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:29:47.178498] No default-access-role handling needed; global role "F3F37BBE6A554503951E9BA9F0961A85::access_role" will not be adapted (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:29:47.178618] Unlocking the container "F3F37BBE6A554503951E9BA9F0961A85"... (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:29:47.179105] Unlocking the container "F3F37BBE6A554503951E9BA9F0961A85"... ok (0s 0ms) (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:29:47.179205] Deployment to container F3F37BBE6A554503951E9BA9F0961A85 done [Deployment ID: none]. (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:29:47.179673] Deployment ended at 2026-04-16 07:29:47 (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:29:47.180187] (1s 576ms) (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:29:47.195298] npm notice (STDERR, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:29:47.195311] npm notice New minor version of npm available! 11.6.2 -> 11.12.1 (STDERR, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:29:47.195315] npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.12.1 (STDERR, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:29:47.195318] npm notice To update run: npm install -g npm@11.12.1 (STDERR, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:29:47.195320] npm notice (STDERR, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:29:47.287498] Exit status 0 (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:29:47.574708] Cell d1cc041a-d5a1-41d6-b9f6-6cda736ce3f0 stopping instance 7bf5565a-cbe9-4e74-8238-2104e09ecec9 (STDOUT, CELL)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:29:47.574740] Cell d1cc041a-d5a1-41d6-b9f6-6cda736ce3f0 destroying container for instance 7bf5565a-cbe9-4e74-8238-2104e09ecec9 (STDOUT, CELL)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:29:50.116545] Cell d1cc041a-d5a1-41d6-b9f6-6cda736ce3f0 successfully destroyed container for instance 7bf5565a-cbe9-4e74-8238-2104e09ecec9 (STDOUT, CELL)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:36:23.183683] Updated app with guid f21bbc8d-50f0-4b1e-afa6-c560792baa58 ({"lifecycle"=>{"data"=>{"buildpacks"=>["nodejs_buildpack"]}, "type"=>"buildpack"}}) (STDOUT, API)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:36:23.274340] Updating process: "web" (STDOUT, API)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:36:25.282809] Cell d1cc041a-d5a1-41d6-b9f6-6cda736ce3f0 creating container for instance 844798c0-da99-43f4-9342-1d79fc287548 (STDOUT, CELL)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:36:25.988617] Security group rules were updated (STDOUT, CELL)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:36:26.078384] Cell d1cc041a-d5a1-41d6-b9f6-6cda736ce3f0 successfully created container for instance 844798c0-da99-43f4-9342-1d79fc287548 (STDOUT, CELL)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:36:30.970283] Invoking pre-start scripts. (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:36:31.162427] Invoking start command. (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:36:31.598112] > start (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:36:31.598139] > node node_modules/@sap/hdi-deploy/deploy.js --use-hdb --parameter com.sap.hana.di.table/try_fast_table_migration=true (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:36:31.748264] VCAP_SERVICES: (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:36:31.748572] { (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:36:31.748588] "hana": [ (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:36:31.748592] { (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:36:31.748595] "name": "sampleXSUAA-db", (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:36:31.748598] "label": "hana", (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:36:31.748600] "plan": "hdi-shared", (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:36:31.748603] "credentials": { (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:36:31.748606] "schema": "F3F37BBE6A554503951E9BA9F0961A85", (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:36:31.748611] "database_id": "8caed5d2-1e6d-4f35-aacd-591f0ecaa81b", (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:36:31.748615] "user": "F3F37BBE6A554503951E9BA9F0961A85_85SZCDDH55P5UPHXGKV3W4Q64_RT", (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:36:31.748618] "hdi_user": "F3F37BBE6A554503951E9BA9F0961A85_85SZCDDH55P5UPHXGKV3W4Q64_DT" (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:36:31.748620] }, (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:36:31.748623] "tags": [ (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:36:31.748625] "hana", (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:36:31.748629] "database", (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:36:31.748631] "relational" (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:36:31.748633] ] (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:36:31.748636] } (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:36:31.748638] ] (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:36:31.748640] } (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:36:32.155576] @sap/hdi-deploy, version 5.6.1 (mode default), server version 4.00.000.00.1770107678 (4.0.0.0), cloud version 2025.40.12, node version 24.13.0, HDI version 1016, container API version 1007 (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:36:32.156144] Deployment started at 2026-04-16 07:36:32 (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:36:32.156605] Using hdb@2.27.1 for connection (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:36:32.176700] No ignore file at /home/vcap/app/.hdiignore. (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:36:32.177008] Collecting files... (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:36:32.179854] Collecting files... ok (0s 3ms) (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:36:32.180] 2 directories collected (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:36:32.180166] 7 files collected (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:36:32.180292] 0 reusable modules collected (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:36:32.180435] Target service: sampleXSUAA-db (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:36:32.350748] Previous build with request ID 1557 finished at 2026-04-16T07:29:47.15 with status Rolled back and message: Starting make in the container "F3F37BBE6A554503951E9BA9F0961A85" with 0 files to deploy, 0 files to undeploy... ok. (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:36:32.350998] Processing revoke files... (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:36:32.351301] Processing revoke files... ok (0s 0ms) (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:36:32.351505] Processing grants files... (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:36:32.352336] Processing grants files... ok (0s 0ms) (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:36:32.355486] Preprocessing files... (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:36:32.355845] Preprocessing files... ok (0s 0ms) (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:36:32.356023] Connecting to the container "F3F37BBE6A554503951E9BA9F0961A85"... (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:36:32.427355] Connecting to the container "F3F37BBE6A554503951E9BA9F0961A85"... ok (0s 71ms) (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:36:32.427367] Locking the container "F3F37BBE6A554503951E9BA9F0961A85"... (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:36:32.545608] Locking the container "F3F37BBE6A554503951E9BA9F0961A85"... ok (0s 118ms) (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:36:32.545726] Synchronizing files with the container "F3F37BBE6A554503951E9BA9F0961A85"... (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:36:32.732473] Deleting files... (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:36:32.863147] Deleting files... ok (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:36:32.863265] Writing files... (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:36:32.863515] Writing 2 items (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:36:33.022083] Writing files... ok (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:36:33.022753] Synchronizing files with the container "F3F37BBE6A554503951E9BA9F0961A85"... ok (0s 477ms) (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:36:33.023745] added files: [] (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:36:33.023828] modified files: [] (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:36:33.024041] deleted files: [] (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:36:33.024057] 0 modified or added files are scheduled for deploy based on delta detection (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:36:33.024452] 0 deleted files are scheduled for undeploy based on delta detection (filtered by undeploy allowlist) (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:36:33.024940] 0 files are scheduled for deploy based on explicit specification (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:36:33.024999] 0 files are scheduled for undeploy based on explicit specification (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:36:33.025048] Deploying to the container "F3F37BBE6A554503951E9BA9F0961A85"... (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:36:33.286080] Starting make in the container "F3F37BBE6A554503951E9BA9F0961A85" with 0 files to deploy, 0 files to undeploy... (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:36:33.286345] Disabling table replication for the container schema "F3F37BBE6A554503951E9BA9F0961A85"... (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:36:33.286422] Disabling table replication for the container schema "F3F37BBE6A554503951E9BA9F0961A85"... ok (0s 11ms) (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:36:33.286482] Migrating libraries... (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:36:33.286537] Migrating libraries... ok (0s 9ms) (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:36:33.286583] Making... (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:36:33.286592] Preparing... (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:36:33.286645] Preparing... ok (0s 0ms) (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:36:33.286655] Preparing the make transaction... (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:36:33.286792] Preparing the make transaction... ok (0s 9ms) (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:36:33.286871] Calculating dependencies... (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:36:33.286923] Expanding... (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:36:33.287958] Expanding... ok (0s 5ms) (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:36:33.288042] Precompiling... (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:36:33.288059] Precompiling... ok (0s 0ms) (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:36:33.288063] Merging... (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:36:33.288067] Merging... ok (0s 0ms) (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:36:33.288079] Calculating dependencies... ok (0s 5ms) (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:36:33.288171] No make necessary (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:36:33.288192] Making... ok (0s 40ms) (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:36:33.288250] Enabling table replication for the container schema "F3F37BBE6A554503951E9BA9F0961A85"... (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:36:33.288263] Enabling table replication for the container schema "F3F37BBE6A554503951E9BA9F0961A85"... ok (0s 9ms) (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:36:33.288345] Starting make in the container "F3F37BBE6A554503951E9BA9F0961A85" with 0 files to deploy, 0 files to undeploy... ok (0s 74ms) (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:36:33.288698] Deploying to the container "F3F37BBE6A554503951E9BA9F0961A85"... ok (0s 264ms) (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:36:33.289017] No default-access-role handling needed; global role "F3F37BBE6A554503951E9BA9F0961A85::access_role" will not be adapted (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:36:33.289126] Unlocking the container "F3F37BBE6A554503951E9BA9F0961A85"... (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:36:33.290350] Unlocking the container "F3F37BBE6A554503951E9BA9F0961A85"... ok (0s 0ms) (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:36:33.290365] Deployment to container F3F37BBE6A554503951E9BA9F0961A85 done [Deployment ID: none]. (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:36:33.290370] Deployment ended at 2026-04-16 07:36:33 (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:36:33.290676] (1s 654ms) (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:36:33.303369] npm notice (STDERR, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:36:33.303392] npm notice New minor version of npm available! 11.6.2 -> 11.12.1 (STDERR, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:36:33.303397] npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.12.1 (STDERR, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:36:33.303403] npm notice To update run: npm install -g npm@11.12.1 (STDERR, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:36:33.303406] npm notice (STDERR, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:36:33.376441] Exit status 0 (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:36:34.630248] Cell d1cc041a-d5a1-41d6-b9f6-6cda736ce3f0 stopping instance 844798c0-da99-43f4-9342-1d79fc287548 (STDOUT, CELL)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:36:34.630282] Cell d1cc041a-d5a1-41d6-b9f6-6cda736ce3f0 destroying container for instance 844798c0-da99-43f4-9342-1d79fc287548 (STDOUT, CELL)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:36:37.621472] Cell d1cc041a-d5a1-41d6-b9f6-6cda736ce3f0 successfully destroyed container for instance 844798c0-da99-43f4-9342-1d79fc287548 (STDOUT, CELL)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:39:17.872680] Updated app with guid f21bbc8d-50f0-4b1e-afa6-c560792baa58 ({"lifecycle"=>{"data"=>{"buildpacks"=>["nodejs_buildpack"]}, "type"=>"buildpack"}}) (STDOUT, API)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:39:17.967877] Updating process: "web" (STDOUT, API)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:39:20.129715] Cell 684caff8-89cd-492b-be01-b3d0835f1763 creating container for instance 07aeb671-0e9f-4b96-963a-87255c6b8308 (STDOUT, CELL)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:39:20.846497] Security group rules were updated (STDOUT, CELL)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:39:20.946345] Cell 684caff8-89cd-492b-be01-b3d0835f1763 successfully created container for instance 07aeb671-0e9f-4b96-963a-87255c6b8308 (STDOUT, CELL)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:39:24.937400] Invoking pre-start scripts. (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:39:25.157277] Invoking start command. (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:39:25.554456] > start (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:39:25.554478] > node node_modules/@sap/hdi-deploy/deploy.js --use-hdb --parameter com.sap.hana.di.table/try_fast_table_migration=true (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:39:25.712725] VCAP_SERVICES: (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:39:25.712885] { (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:39:25.712898] "hana": [ (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:39:25.712900] { (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:39:25.712904] "name": "sampleXSUAA-db", (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:39:25.712907] "label": "hana", (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:39:25.712910] "plan": "hdi-shared", (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:39:25.712912] "credentials": { (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:39:25.712961] "schema": "F3F37BBE6A554503951E9BA9F0961A85", (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:39:25.712963] "database_id": "8caed5d2-1e6d-4f35-aacd-591f0ecaa81b", (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:39:25.712972] "user": "F3F37BBE6A554503951E9BA9F0961A85_85SZCDDH55P5UPHXGKV3W4Q64_RT", (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:39:25.712975] "hdi_user": "F3F37BBE6A554503951E9BA9F0961A85_85SZCDDH55P5UPHXGKV3W4Q64_DT" (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:39:25.712978] }, (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:39:25.712981] "tags": [ (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:39:25.712983] "hana", (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:39:25.712985] "database", (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:39:25.712988] "relational" (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:39:25.712990] ] (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:39:25.712992] } (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:39:25.712995] ] (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:39:25.712997] } (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:39:26.066518] @sap/hdi-deploy, version 5.6.1 (mode default), server version 4.00.000.00.1770107678 (4.0.0.0), cloud version 2025.40.12, node version 24.13.0, HDI version 1016, container API version 1007 (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:39:26.067036] Deployment started at 2026-04-16 07:39:26 (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:39:26.067366] Using hdb@2.27.1 for connection (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:39:26.087094] No ignore file at /home/vcap/app/.hdiignore. (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:39:26.087373] Collecting files... (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:39:26.090047] Collecting files... ok (0s 3ms) (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:39:26.090059] 2 directories collected (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:39:26.090062] 7 files collected (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:39:26.090070] 0 reusable modules collected (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:39:26.090072] Target service: sampleXSUAA-db (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:39:26.229530] Previous build with request ID 1562 finished at 2026-04-16T07:36:33.259 with status Rolled back and message: Starting make in the container "F3F37BBE6A554503951E9BA9F0961A85" with 0 files to deploy, 0 files to undeploy... ok. (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:39:26.229679] Processing revoke files... (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:39:26.229798] Processing revoke files... ok (0s 0ms) (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:39:26.229885] Processing grants files... (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:39:26.229973] Processing grants files... ok (0s 0ms) (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:39:26.232711] Preprocessing files... (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:39:26.232838] Preprocessing files... ok (0s 0ms) (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:39:26.232961] Connecting to the container "F3F37BBE6A554503951E9BA9F0961A85"... (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:39:26.318908] Connecting to the container "F3F37BBE6A554503951E9BA9F0961A85"... ok (0s 86ms) (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:39:26.318977] Locking the container "F3F37BBE6A554503951E9BA9F0961A85"... (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:39:26.459962] Locking the container "F3F37BBE6A554503951E9BA9F0961A85"... ok (0s 141ms) (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:39:26.460007] Synchronizing files with the container "F3F37BBE6A554503951E9BA9F0961A85"... (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:39:26.638525] Deleting files... (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:39:26.768592] Deleting files... ok (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:39:26.768619] Writing files... (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:39:26.768818] Writing 2 items (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:39:26.913375] Writing files... ok (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:39:26.913498] Synchronizing files with the container "F3F37BBE6A554503951E9BA9F0961A85"... ok (0s 454ms) (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:39:26.913733] added files: [] (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:39:26.913781] modified files: [] (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:39:26.913794] deleted files: [] (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:39:26.913798] 0 modified or added files are scheduled for deploy based on delta detection (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:39:26.914005] 0 deleted files are scheduled for undeploy based on delta detection (filtered by undeploy allowlist) (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:39:26.914114] 0 files are scheduled for deploy based on explicit specification (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:39:26.914156] 0 files are scheduled for undeploy based on explicit specification (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:39:26.914230] Deploying to the container "F3F37BBE6A554503951E9BA9F0961A85"... (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:39:27.179071] Starting make in the container "F3F37BBE6A554503951E9BA9F0961A85" with 0 files to deploy, 0 files to undeploy... (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:39:27.179197] Disabling table replication for the container schema "F3F37BBE6A554503951E9BA9F0961A85"... (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:39:27.179211] Disabling table replication for the container schema "F3F37BBE6A554503951E9BA9F0961A85"... ok (0s 12ms) (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:39:27.179218] Migrating libraries... (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:39:27.179311] Migrating libraries... ok (0s 12ms) (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:39:27.179375] Making... (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:39:27.179475] Preparing... (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:39:27.179520] Preparing... ok (0s 0ms) (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:39:27.179599] Preparing the make transaction... (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:39:27.179694] Preparing the make transaction... ok (0s 9ms) (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:39:27.179767] Calculating dependencies... (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:39:27.179808] Expanding... (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:39:27.180042] Expanding... ok (0s 5ms) (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:39:27.180084] Precompiling... (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:39:27.180161] Precompiling... ok (0s 0ms) (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:39:27.180240] Merging... (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:39:27.180294] Merging... ok (0s 0ms) (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:39:27.180360] Calculating dependencies... ok (0s 5ms) (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:39:27.180452] No make necessary (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:39:27.180491] Making... ok (0s 47ms) (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:39:27.180576] Enabling table replication for the container schema "F3F37BBE6A554503951E9BA9F0961A85"... (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:39:27.180632] Enabling table replication for the container schema "F3F37BBE6A554503951E9BA9F0961A85"... ok (0s 9ms) (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:39:27.180739] Starting make in the container "F3F37BBE6A554503951E9BA9F0961A85" with 0 files to deploy, 0 files to undeploy... ok (0s 86ms) (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:39:27.180780] Deploying to the container "F3F37BBE6A554503951E9BA9F0961A85"... ok (0s 266ms) (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:39:27.180878] No default-access-role handling needed; global role "F3F37BBE6A554503951E9BA9F0961A85::access_role" will not be adapted (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:39:27.180947] Unlocking the container "F3F37BBE6A554503951E9BA9F0961A85"... (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:39:27.181021] Unlocking the container "F3F37BBE6A554503951E9BA9F0961A85"... ok (0s 0ms) (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:39:27.181170] Deployment to container F3F37BBE6A554503951E9BA9F0961A85 done [Deployment ID: none]. (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:39:27.181908] Deployment ended at 2026-04-16 07:39:27 (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:39:27.182572] (1s 584ms) (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:39:27.194816] npm notice (STDERR, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:39:27.194833] npm notice New minor version of npm available! 11.6.2 -> 11.12.1 (STDERR, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:39:27.194871] npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.12.1 (STDERR, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:39:27.194898] npm notice To update run: npm install -g npm@11.12.1 (STDERR, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:39:27.194901] npm notice (STDERR, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:39:27.268784] Exit status 0 (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:39:27.697751] Cell 684caff8-89cd-492b-be01-b3d0835f1763 stopping instance 07aeb671-0e9f-4b96-963a-87255c6b8308 (STDOUT, CELL)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:39:27.697786] Cell 684caff8-89cd-492b-be01-b3d0835f1763 destroying container for instance 07aeb671-0e9f-4b96-963a-87255c6b8308 (STDOUT, CELL)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:39:29.908808] Cell 684caff8-89cd-492b-be01-b3d0835f1763 successfully destroyed container for instance 07aeb671-0e9f-4b96-963a-87255c6b8308 (STDOUT, CELL)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:43:08.275607] Updated app with guid f21bbc8d-50f0-4b1e-afa6-c560792baa58 ({"lifecycle"=>{"data"=>{"buildpacks"=>["nodejs_buildpack"]}, "type"=>"buildpack"}}) (STDOUT, API)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:43:08.499202] Updating process: "web" (STDOUT, API)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:43:22.003054] Cell d1cc041a-d5a1-41d6-b9f6-6cda736ce3f0 creating container for instance d6990319-c3ab-42f0-8d10-6a87e77a516c (STDOUT, CELL)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:43:22.807553] Security group rules were updated (STDOUT, CELL)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:43:22.919927] Cell d1cc041a-d5a1-41d6-b9f6-6cda736ce3f0 successfully created container for instance d6990319-c3ab-42f0-8d10-6a87e77a516c (STDOUT, CELL)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:43:28.095110] Invoking pre-start scripts. (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:43:28.298569] Invoking start command. (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:43:28.747095] > start (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:43:28.747112] > node node_modules/@sap/hdi-deploy/deploy.js --use-hdb --parameter com.sap.hana.di.table/try_fast_table_migration=true (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:43:28.910256] VCAP_SERVICES: (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:43:28.910497] { (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:43:28.910507] "hana": [ (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:43:28.910513] { (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:43:28.910516] "name": "sampleXSUAA-db", (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:43:28.910519] "label": "hana", (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:43:28.910522] "plan": "hdi-shared", (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:43:28.910524] "credentials": { (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:43:28.910527] "schema": "F3F37BBE6A554503951E9BA9F0961A85", (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:43:28.910529] "database_id": "8caed5d2-1e6d-4f35-aacd-591f0ecaa81b", (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:43:28.910534] "user": "F3F37BBE6A554503951E9BA9F0961A85_85SZCDDH55P5UPHXGKV3W4Q64_RT", (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:43:28.910539] "hdi_user": "F3F37BBE6A554503951E9BA9F0961A85_85SZCDDH55P5UPHXGKV3W4Q64_DT" (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:43:28.910541] }, (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:43:28.910543] "tags": [ (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:43:28.910546] "hana", (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:43:28.910548] "database", (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:43:28.910550] "relational" (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:43:28.910552] ] (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:43:28.910554] } (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:43:28.910558] ] (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:43:28.910560] } (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:43:29.291256] @sap/hdi-deploy, version 5.6.1 (mode default), server version 4.00.000.00.1770107678 (4.0.0.0), cloud version 2025.40.12, node version 24.13.0, HDI version 1016, container API version 1007 (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:43:29.291471] Deployment started at 2026-04-16 07:43:29 (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:43:29.291700] Using hdb@2.27.1 for connection (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:43:29.313671] No ignore file at /home/vcap/app/.hdiignore. (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:43:29.313995] Collecting files... (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:43:29.317353] Collecting files... ok (0s 3ms) (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:43:29.317436] 2 directories collected (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:43:29.317509] 7 files collected (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:43:29.318264] 0 reusable modules collected (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:43:29.318326] Target service: sampleXSUAA-db (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:43:29.463134] Previous build with request ID 1567 finished at 2026-04-16T07:39:27.151 with status Rolled back and message: Starting make in the container "F3F37BBE6A554503951E9BA9F0961A85" with 0 files to deploy, 0 files to undeploy... ok. (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:43:29.463156] Processing revoke files... (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:43:29.463160] Processing revoke files... ok (0s 0ms) (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:43:29.463162] Processing grants files... (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:43:29.463165] Processing grants files... ok (0s 0ms) (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:43:29.466590] Preprocessing files... (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:43:29.467304] Preprocessing files... ok (0s 1ms) (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:43:29.467386] Connecting to the container "F3F37BBE6A554503951E9BA9F0961A85"... (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:43:29.641119] Connecting to the container "F3F37BBE6A554503951E9BA9F0961A85"... ok (0s 174ms) (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:43:29.641182] Locking the container "F3F37BBE6A554503951E9BA9F0961A85"... (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:43:29.770077] Locking the container "F3F37BBE6A554503951E9BA9F0961A85"... ok (0s 129ms) (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:43:29.770471] Synchronizing files with the container "F3F37BBE6A554503951E9BA9F0961A85"... (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:43:30.001766] Deleting files... (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:43:30.225849] Deleting files... ok (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:43:30.225953] Writing files... (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:43:30.226045] Writing 2 items (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:43:30.411415] Writing files... ok (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:43:30.411443] Synchronizing files with the container "F3F37BBE6A554503951E9BA9F0961A85"... ok (0s 631ms) (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:43:30.411448] added files: [] (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:43:30.411450] modified files: [] (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:43:30.411458] deleted files: [] (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:43:30.411461] 0 modified or added files are scheduled for deploy based on delta detection (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:43:30.411466] 0 deleted files are scheduled for undeploy based on delta detection (filtered by undeploy allowlist) (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:43:30.411469] 0 files are scheduled for deploy based on explicit specification (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:43:30.411472] 0 files are scheduled for undeploy based on explicit specification (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:43:30.411475] Deploying to the container "F3F37BBE6A554503951E9BA9F0961A85"... (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:43:30.663560] Starting make in the container "F3F37BBE6A554503951E9BA9F0961A85" with 0 files to deploy, 0 files to undeploy... (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:43:30.663586] Disabling table replication for the container schema "F3F37BBE6A554503951E9BA9F0961A85"... (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:43:30.663685] Disabling table replication for the container schema "F3F37BBE6A554503951E9BA9F0961A85"... ok (0s 10ms) (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:43:30.663769] Migrating libraries... (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:43:30.664594] Migrating libraries... ok (0s 8ms) (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:43:30.664690] Making... (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:43:30.664704] Preparing... (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:43:30.664707] Preparing... ok (0s 0ms) (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:43:30.664711] Preparing the make transaction... (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:43:30.664957] Preparing the make transaction... ok (0s 8ms) (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:43:30.665113] Calculating dependencies... (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:43:30.665126] Expanding... (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:43:30.665478] Expanding... ok (0s 6ms) (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:43:30.665547] Precompiling... (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:43:30.665615] Precompiling... ok (0s 0ms) (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:43:30.665626] Merging... (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:43:30.665633] Merging... ok (0s 0ms) (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:43:30.665636] Calculating dependencies... ok (0s 6ms) (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:43:30.665639] No make necessary (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:43:30.665642] Making... ok (0s 39ms) (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:43:30.665694] Enabling table replication for the container schema "F3F37BBE6A554503951E9BA9F0961A85"... (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:43:30.665700] Enabling table replication for the container schema "F3F37BBE6A554503951E9BA9F0961A85"... ok (0s 9ms) (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:43:30.665703] Starting make in the container "F3F37BBE6A554503951E9BA9F0961A85" with 0 files to deploy, 0 files to undeploy... ok (0s 73ms) (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:43:30.665946] Deploying to the container "F3F37BBE6A554503951E9BA9F0961A85"... ok (0s 263ms) (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:43:30.666243] No default-access-role handling needed; global role "F3F37BBE6A554503951E9BA9F0961A85::access_role" will not be adapted (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:43:30.666400] Unlocking the container "F3F37BBE6A554503951E9BA9F0961A85"... (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:43:30.667013] Unlocking the container "F3F37BBE6A554503951E9BA9F0961A85"... ok (0s 1ms) (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:43:30.667167] Deployment to container F3F37BBE6A554503951E9BA9F0961A85 done [Deployment ID: none]. (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:43:30.667680] Deployment ended at 2026-04-16 07:43:30 (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:43:30.667953] (1s 874ms) (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:43:30.682043] npm notice (STDERR, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:43:30.682070] npm notice New minor version of npm available! 11.6.2 -> 11.12.1 (STDERR, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:43:30.682077] npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.12.1 (STDERR, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:43:30.682081] npm notice To update run: npm install -g npm@11.12.1 (STDERR, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:43:30.682101] npm notice (STDERR, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:43:30.764025] Exit status 0 (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:43:32.196548] Cell d1cc041a-d5a1-41d6-b9f6-6cda736ce3f0 stopping instance d6990319-c3ab-42f0-8d10-6a87e77a516c (STDOUT, CELL)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:43:32.196618] Cell d1cc041a-d5a1-41d6-b9f6-6cda736ce3f0 destroying container for instance d6990319-c3ab-42f0-8d10-6a87e77a516c (STDOUT, CELL)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:43:35.297414] Cell d1cc041a-d5a1-41d6-b9f6-6cda736ce3f0 successfully destroyed container for instance d6990319-c3ab-42f0-8d10-6a87e77a516c (STDOUT, CELL)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:44:45.593229] Updated app with guid f21bbc8d-50f0-4b1e-afa6-c560792baa58 ({"lifecycle"=>{"data"=>{"buildpacks"=>["nodejs_buildpack"]}, "type"=>"buildpack"}}) (STDOUT, API)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:44:45.730005] Updating process: "web" (STDOUT, API)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:45:07.887768] Cell 684caff8-89cd-492b-be01-b3d0835f1763 creating container for instance 59ef607e-a19a-4cb8-b82f-0181cd93572c (STDOUT, CELL)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:45:08.683908] Security group rules were updated (STDOUT, CELL)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:45:08.780581] Cell 684caff8-89cd-492b-be01-b3d0835f1763 successfully created container for instance 59ef607e-a19a-4cb8-b82f-0181cd93572c (STDOUT, CELL)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:45:12.887] Invoking pre-start scripts. (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:45:13.076634] Invoking start command. (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:45:13.513597] > start (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:45:13.513619] > node node_modules/@sap/hdi-deploy/deploy.js --use-hdb --parameter com.sap.hana.di.table/try_fast_table_migration=true (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:45:13.664810] VCAP_SERVICES: (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:45:13.665054] { (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:45:13.665067] "hana": [ (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:45:13.665070] { (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:45:13.665073] "name": "sampleXSUAA-db", (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:45:13.665076] "label": "hana", (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:45:13.665078] "plan": "hdi-shared", (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:45:13.665084] "credentials": { (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:45:13.665087] "schema": "F3F37BBE6A554503951E9BA9F0961A85", (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:45:13.665090] "database_id": "8caed5d2-1e6d-4f35-aacd-591f0ecaa81b", (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:45:13.665093] "user": "F3F37BBE6A554503951E9BA9F0961A85_85SZCDDH55P5UPHXGKV3W4Q64_RT", (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:45:13.665096] "hdi_user": "F3F37BBE6A554503951E9BA9F0961A85_85SZCDDH55P5UPHXGKV3W4Q64_DT" (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:45:13.665098] }, (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:45:13.665100] "tags": [ (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:45:13.665102] "hana", (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:45:13.665110] "database", (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:45:13.665112] "relational" (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:45:13.665114] ] (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:45:13.665116] } (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:45:13.665118] ] (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:45:13.665120] } (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.878#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:45:14.022954] @sap/hdi-deploy, version 5.6.1 (mode default), server version 4.00.000.00.1770107678 (4.0.0.0), cloud version 2025.40.12, node version 24.13.0, HDI version 1016, container API version 1007 (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.879#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:45:14.023424] Deployment started at 2026-04-16 07:45:14 (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.879#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:45:14.024033] Using hdb@2.27.1 for connection (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.879#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:45:14.044980] No ignore file at /home/vcap/app/.hdiignore. (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.879#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:45:14.045016] Collecting files... (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.879#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:45:14.049443] Collecting files... ok (0s 5ms) (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.879#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:45:14.049474] 2 directories collected (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.879#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:45:14.049523] 7 files collected (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.879#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:45:14.049526] 0 reusable modules collected (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.879#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:45:14.049537] Target service: sampleXSUAA-db (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.879#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:45:14.190017] Previous build with request ID 1572 finished at 2026-04-16T07:43:30.634 with status Rolled back and message: Starting make in the container "F3F37BBE6A554503951E9BA9F0961A85" with 0 files to deploy, 0 files to undeploy... ok. (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.879#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:45:14.190102] Processing revoke files... (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.879#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:45:14.190160] Processing revoke files... ok (0s 0ms) (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.879#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:45:14.190292] Processing grants files... (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.879#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:45:14.190379] Processing grants files... ok (0s 0ms) (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.879#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:45:14.193021] Preprocessing files... (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.879#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:45:14.193248] Preprocessing files... ok (0s 0ms) (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.879#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:45:14.193305] Connecting to the container "F3F37BBE6A554503951E9BA9F0961A85"... (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.879#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:45:14.254569] Connecting to the container "F3F37BBE6A554503951E9BA9F0961A85"... ok (0s 61ms) (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.879#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:45:14.254592] Locking the container "F3F37BBE6A554503951E9BA9F0961A85"... (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.879#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:45:14.372026] Locking the container "F3F37BBE6A554503951E9BA9F0961A85"... ok (0s 117ms) (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.879#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:45:14.372053] Synchronizing files with the container "F3F37BBE6A554503951E9BA9F0961A85"... (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.879#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:45:14.560051] Deleting files... (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.879#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:45:14.692991] Deleting files... ok (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.879#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:45:14.693014] Writing files... (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.879#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:45:14.693197] Writing 2 items (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.879#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:45:14.840024] Writing files... ok (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.879#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:45:14.840096] Synchronizing files with the container "F3F37BBE6A554503951E9BA9F0961A85"... ok (0s 468ms) (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.879#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:45:14.840343] added files: [] (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.879#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:45:14.840383] modified files: [] (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.879#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:45:14.840421] deleted files: [] (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.879#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:45:14.840468] 0 modified or added files are scheduled for deploy based on delta detection (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.879#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:45:14.840653] 0 deleted files are scheduled for undeploy based on delta detection (filtered by undeploy allowlist) (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.879#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:45:14.840790] 0 files are scheduled for deploy based on explicit specification (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.879#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:45:14.840832] 0 files are scheduled for undeploy based on explicit specification (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.879#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:45:14.840921] Deploying to the container "F3F37BBE6A554503951E9BA9F0961A85"... (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.879#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:45:15.088851] Starting make in the container "F3F37BBE6A554503951E9BA9F0961A85" with 0 files to deploy, 0 files to undeploy... (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.879#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:45:15.088883] Disabling table replication for the container schema "F3F37BBE6A554503951E9BA9F0961A85"... (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.879#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:45:15.089003] Disabling table replication for the container schema "F3F37BBE6A554503951E9BA9F0961A85"... ok (0s 9ms) (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.879#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:45:15.089074] Migrating libraries... (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.879#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:45:15.090262] Migrating libraries... ok (0s 9ms) (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.879#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:45:15.090787] Making... (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.879#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:45:15.090838] Preparing... (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.879#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:45:15.090913] Preparing... ok (0s 0ms) (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.879#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:45:15.090919] Preparing the make transaction... (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.879#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:45:15.091256] Preparing the make transaction... ok (0s 7ms) (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.879#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:45:15.091735] Calculating dependencies... (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.879#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:45:15.091826] Expanding... (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.879#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:45:15.092063] Expanding... ok (0s 4ms) (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.879#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:45:15.092474] Precompiling... (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.879#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:45:15.092551] Precompiling... ok (0s 0ms) (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.879#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:45:15.092568] Merging... (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.879#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:45:15.092578] Merging... ok (0s 0ms) (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.879#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:45:15.092657] Calculating dependencies... ok (0s 4ms) (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.879#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:45:15.092670] No make necessary (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.879#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:45:15.092706] Making... ok (0s 38ms) (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.879#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:45:15.092724] Enabling table replication for the container schema "F3F37BBE6A554503951E9BA9F0961A85"... (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.879#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:45:15.092853] Enabling table replication for the container schema "F3F37BBE6A554503951E9BA9F0961A85"... ok (0s 10ms) (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.879#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:45:15.093389] Starting make in the container "F3F37BBE6A554503951E9BA9F0961A85" with 0 files to deploy, 0 files to undeploy... ok (0s 71ms) (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.879#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:45:15.093851] Deploying to the container "F3F37BBE6A554503951E9BA9F0961A85"... ok (0s 253ms) (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.879#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:45:15.094250] No default-access-role handling needed; global role "F3F37BBE6A554503951E9BA9F0961A85::access_role" will not be adapted (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.879#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:45:15.094519] Unlocking the container "F3F37BBE6A554503951E9BA9F0961A85"... (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.879#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:45:15.095744] Unlocking the container "F3F37BBE6A554503951E9BA9F0961A85"... ok (0s 1ms) (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.879#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:45:15.096091] Deployment to container F3F37BBE6A554503951E9BA9F0961A85 done [Deployment ID: none]. (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.879#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:45:15.097009] Deployment ended at 2026-04-16 07:45:15 (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.879#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:45:15.097725] (1s 545ms) (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.879#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:45:15.113253] npm notice (STDERR, APP/TASK/deploy)#
+#2026 04 16 07:47:33.879#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:45:15.113269] npm notice New minor version of npm available! 11.6.2 -> 11.12.1 (STDERR, APP/TASK/deploy)#
+#2026 04 16 07:47:33.879#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:45:15.113273] npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.12.1 (STDERR, APP/TASK/deploy)#
+#2026 04 16 07:47:33.879#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:45:15.113275] npm notice To update run: npm install -g npm@11.12.1 (STDERR, APP/TASK/deploy)#
+#2026 04 16 07:47:33.879#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:45:15.113278] npm notice (STDERR, APP/TASK/deploy)#
+#2026 04 16 07:47:33.879#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:45:15.185557] Exit status 0 (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.879#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:45:15.555305] Cell 684caff8-89cd-492b-be01-b3d0835f1763 stopping instance 59ef607e-a19a-4cb8-b82f-0181cd93572c (STDOUT, CELL)#
+#2026 04 16 07:47:33.879#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:45:15.555335] Cell 684caff8-89cd-492b-be01-b3d0835f1763 destroying container for instance 59ef607e-a19a-4cb8-b82f-0181cd93572c (STDOUT, CELL)#
+#2026 04 16 07:47:33.879#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:45:18.475633] Cell 684caff8-89cd-492b-be01-b3d0835f1763 successfully destroyed container for instance 59ef607e-a19a-4cb8-b82f-0181cd93572c (STDOUT, CELL)#
+#2026 04 16 07:47:33.879#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:47:15.427469] Updated app with guid f21bbc8d-50f0-4b1e-afa6-c560792baa58 ({"lifecycle"=>{"data"=>{"buildpacks"=>["nodejs_buildpack"]}, "type"=>"buildpack"}}) (STDOUT, API)#
+#2026 04 16 07:47:33.879#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:47:15.528948] Updating process: "web" (STDOUT, API)#
+#2026 04 16 07:47:33.879#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:47:18.934888] Cell d1cc041a-d5a1-41d6-b9f6-6cda736ce3f0 creating container for instance 51e55b76-e923-42e3-9a1c-b44abd686409 (STDOUT, CELL)#
+#2026 04 16 07:47:33.879#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:47:19.758154] Security group rules were updated (STDOUT, CELL)#
+#2026 04 16 07:47:33.879#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:47:19.858359] Cell d1cc041a-d5a1-41d6-b9f6-6cda736ce3f0 successfully created container for instance 51e55b76-e923-42e3-9a1c-b44abd686409 (STDOUT, CELL)#
+#2026 04 16 07:47:33.879#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:47:24.586899] Invoking pre-start scripts. (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.879#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:47:24.770469] Invoking start command. (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.879#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:47:25.211181] > start (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.879#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:47:25.211205] > node node_modules/@sap/hdi-deploy/deploy.js --use-hdb --parameter com.sap.hana.di.table/try_fast_table_migration=true (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.879#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:47:25.372694] VCAP_SERVICES: (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.879#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:47:25.373155] { (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.879#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:47:25.373168] "hana": [ (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.879#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:47:25.373171] { (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.879#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:47:25.373174] "name": "sampleXSUAA-db", (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.879#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:47:25.373177] "label": "hana", (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.879#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:47:25.373181] "plan": "hdi-shared", (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.879#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:47:25.373183] "credentials": { (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.879#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:47:25.373192] "schema": "F3F37BBE6A554503951E9BA9F0961A85", (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.879#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:47:25.373194] "database_id": "8caed5d2-1e6d-4f35-aacd-591f0ecaa81b", (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.879#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:47:25.373225] "user": "F3F37BBE6A554503951E9BA9F0961A85_85SZCDDH55P5UPHXGKV3W4Q64_RT", (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.879#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:47:25.373228] "hdi_user": "F3F37BBE6A554503951E9BA9F0961A85_85SZCDDH55P5UPHXGKV3W4Q64_DT" (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.879#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:47:25.373230] }, (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.879#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:47:25.373232] "tags": [ (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.879#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:47:25.373235] "hana", (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.879#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:47:25.373237] "database", (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.879#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:47:25.373239] "relational" (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.879#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:47:25.373241] ] (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.879#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:47:25.373243] } (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.879#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:47:25.373245] ] (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.879#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:47:25.373248] } (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.879#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:47:25.731663] @sap/hdi-deploy, version 5.6.1 (mode default), server version 4.00.000.00.1770107678 (4.0.0.0), cloud version 2025.40.12, node version 24.13.0, HDI version 1016, container API version 1007 (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.879#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:47:25.731917] Deployment started at 2026-04-16 07:47:25 (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.879#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:47:25.732086] Using hdb@2.27.1 for connection (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.879#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:47:25.752692] No ignore file at /home/vcap/app/.hdiignore. (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.879#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:47:25.753175] Collecting files... (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.879#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:47:25.756349] Collecting files... ok (0s 3ms) (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.879#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:47:25.756366] 2 directories collected (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.879#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:47:25.756859] 7 files collected (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.879#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:47:25.756879] 0 reusable modules collected (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.879#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:47:25.756883] Target service: sampleXSUAA-db (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.879#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:47:25.888940] Previous build with request ID 1577 finished at 2026-04-16T07:45:15.06 with status Rolled back and message: Starting make in the container "F3F37BBE6A554503951E9BA9F0961A85" with 0 files to deploy, 0 files to undeploy... ok. (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.879#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:47:25.889092] Processing revoke files... (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.879#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:47:25.889114] Processing revoke files... ok (0s 0ms) (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.879#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:47:25.889206] Processing grants files... (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.879#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:47:25.889294] Processing grants files... ok (0s 0ms) (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.879#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:47:25.892110] Preprocessing files... (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.879#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:47:25.892405] Preprocessing files... ok (0s 0ms) (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.879#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:47:25.892500] Connecting to the container "F3F37BBE6A554503951E9BA9F0961A85"... (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.879#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:47:25.956163] Connecting to the container "F3F37BBE6A554503951E9BA9F0961A85"... ok (0s 64ms) (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.879#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:47:25.956190] Locking the container "F3F37BBE6A554503951E9BA9F0961A85"... (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.879#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:47:26.072506] Locking the container "F3F37BBE6A554503951E9BA9F0961A85"... ok (0s 116ms) (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.879#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:47:26.072697] Synchronizing files with the container "F3F37BBE6A554503951E9BA9F0961A85"... (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.879#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:47:26.251531] Deleting files... (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.879#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:47:26.386506] Deleting files... ok (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.879#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:47:26.386743] Writing files... (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.879#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:47:26.386947] Writing 2 items (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.879#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:47:26.533842] Writing files... ok (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.879#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:47:26.533916] Synchronizing files with the container "F3F37BBE6A554503951E9BA9F0961A85"... ok (0s 461ms) (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.879#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:47:26.534209] added files: [] (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.879#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:47:26.534224] modified files: [] (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.879#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:47:26.534253] deleted files: [] (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.879#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:47:26.534574] 0 modified or added files are scheduled for deploy based on delta detection (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.879#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:47:26.534803] 0 deleted files are scheduled for undeploy based on delta detection (filtered by undeploy allowlist) (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.879#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:47:26.534835] 0 files are scheduled for deploy based on explicit specification (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.879#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:47:26.534840] 0 files are scheduled for undeploy based on explicit specification (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.879#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:47:26.534918] Deploying to the container "F3F37BBE6A554503951E9BA9F0961A85"... (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.879#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:47:26.772774] Starting make in the container "F3F37BBE6A554503951E9BA9F0961A85" with 0 files to deploy, 0 files to undeploy... (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.879#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:47:26.772845] Disabling table replication for the container schema "F3F37BBE6A554503951E9BA9F0961A85"... (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.879#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:47:26.772862] Disabling table replication for the container schema "F3F37BBE6A554503951E9BA9F0961A85"... ok (0s 8ms) (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.879#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:47:26.772865] Migrating libraries... (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.879#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:47:26.772869] Migrating libraries... ok (0s 8ms) (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.879#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:47:26.772873] Making... (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.879#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:47:26.772875] Preparing... (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.879#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:47:26.772882] Preparing... ok (0s 0ms) (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.879#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:47:26.772886] Preparing the make transaction... (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.879#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:47:26.772948] Preparing the make transaction... ok (0s 7ms) (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.879#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:47:26.772958] Calculating dependencies... (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.879#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:47:26.772972] Expanding... (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.879#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:47:26.773004] Expanding... ok (0s 4ms) (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.879#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:47:26.773012] Precompiling... (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.879#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:47:26.773014] Precompiling... ok (0s 0ms) (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.879#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:47:26.773017] Merging... (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.879#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:47:26.773031] Merging... ok (0s 0ms) (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.879#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:47:26.773034] Calculating dependencies... ok (0s 4ms) (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.879#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:47:26.773088] No make necessary (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.879#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:47:26.773094] Making... ok (0s 35ms) (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.879#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:47:26.773097] Enabling table replication for the container schema "F3F37BBE6A554503951E9BA9F0961A85"... (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.879#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:47:26.773101] Enabling table replication for the container schema "F3F37BBE6A554503951E9BA9F0961A85"... ok (0s 8ms) (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.879#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:47:26.773103] Starting make in the container "F3F37BBE6A554503951E9BA9F0961A85" with 0 files to deploy, 0 files to undeploy... ok (0s 65ms) (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.879#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:47:26.773761] Deploying to the container "F3F37BBE6A554503951E9BA9F0961A85"... ok (0s 239ms) (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.879#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:47:26.774185] No default-access-role handling needed; global role "F3F37BBE6A554503951E9BA9F0961A85::access_role" will not be adapted (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.879#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:47:26.775082] Unlocking the container "F3F37BBE6A554503951E9BA9F0961A85"... (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.879#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:47:26.775719] Unlocking the container "F3F37BBE6A554503951E9BA9F0961A85"... ok (0s 1ms) (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.879#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:47:26.775838] Deployment to container F3F37BBE6A554503951E9BA9F0961A85 done [Deployment ID: none]. (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.879#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:47:26.776334] Deployment ended at 2026-04-16 07:47:26 (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.879#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:47:26.776734] (1s 525ms) (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.879#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:47:26.791730] npm notice (STDERR, APP/TASK/deploy)#
+#2026 04 16 07:47:33.879#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:47:26.791757] npm notice New minor version of npm available! 11.6.2 -> 11.12.1 (STDERR, APP/TASK/deploy)#
+#2026 04 16 07:47:33.879#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:47:26.791762] npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.12.1 (STDERR, APP/TASK/deploy)#
+#2026 04 16 07:47:33.879#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:47:26.791764] npm notice To update run: npm install -g npm@11.12.1 (STDERR, APP/TASK/deploy)#
+#2026 04 16 07:47:33.879#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:47:26.791767] npm notice (STDERR, APP/TASK/deploy)#
+#2026 04 16 07:47:33.879#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:47:26.877260] Exit status 0 (STDOUT, APP/TASK/deploy)#
+#2026 04 16 07:47:33.879#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:47:27.356427] Cell d1cc041a-d5a1-41d6-b9f6-6cda736ce3f0 stopping instance 51e55b76-e923-42e3-9a1c-b44abd686409 (STDOUT, CELL)#
+#2026 04 16 07:47:33.879#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:47:27.356487] Cell d1cc041a-d5a1-41d6-b9f6-6cda736ce3f0 destroying container for instance 51e55b76-e923-42e3-9a1c-b44abd686409 (STDOUT, CELL)#
+#2026 04 16 07:47:33.879#Z#DEBUG#710c00e6-3968-11f1-887f-eeee0a878e80.sampleXSUAA-db-deployer#flowable-async-job-executor-thread-19645#
+[PollExecuteTaskStatusExecution] f21bbc8d-50f0-4b1e-afa6-c560792baa58 [2026-04-16T07:47:30.344225] Cell d1cc041a-d5a1-41d6-b9f6-6cda736ce3f0 successfully destroyed container for instance 51e55b76-e923-42e3-9a1c-b44abd686409 (STDOUT, CELL)#
