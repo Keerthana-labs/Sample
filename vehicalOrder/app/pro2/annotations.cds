@@ -1,1 +1,0 @@
-using vehicles.srv.VehicleApi as service from '../../srv/vhod';

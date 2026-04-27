@@ -1,0 +1,39 @@
+{
+  "name": "sidebyside",
+  "version": "1.0.0",
+  "dependencies": {
+    "@sap-cloud-sdk/connectivity": "^4.6.0",
+    "@sap-cloud-sdk/http-client": "^4.6.0",
+    "@sap-cloud-sdk/resilience": "^4.6.0",
+    "@sap/cds": "^9",
+    "i": "^0.3.7",
+    "npm": "^11.12.1"
+  },
+  "devDependencies": {
+    "@cap-js/sqlite": "^2"
+  },
+  "scripts": {
+    "start": "cds-serve"
+  },
+  "private": true,
+  "cds": {
+    "requires": {
+      "API_BUS_SOLUTION_ORDER_SRV": {
+        "kind": "odata-v2",
+        "model": "srv/external/API_BUS_SOLUTION_ORDER_SRV",
+        "credentials": {
+          "url": "https://sandbox.api.sap.com/s4hanacloud/sap/opu/odata/sap/API_BUS_SOLUTION_ORDER_SRV",
+          "headers": {
+            "APIkey": "oQwyjOMbq3QQrXePCw1bpeOPBYbKdKje",
+              "sideAPI": {
+        "kind": "rest",
+        "credentials": {
+          "destination": "sidebyside"
+        }
+      }
+          }
+        }
+      }
+    }
+  }
+}

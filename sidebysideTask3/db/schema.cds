@@ -7,4 +7,4 @@ entity  A_AddressEmailAddress as projection on s4.A_AddressEmailAddress
      AddressID,
      Person,
      EmailAddress
-}
+}  

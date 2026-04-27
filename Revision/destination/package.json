@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "dependencies": {
     "@cap-js/hana": "^2.7.0",
-    "@sap/cds": "^9"
+    "@sap/cds": "^9",
+    "axios": "^1.15.1"
   },
   "devDependencies": {
     "@cap-js/sqlite": "^2",
@@ -13,20 +14,18 @@
     "start": "cds-serve"
   },
   "private": true,
-  "cds":{
-    "requires":{
-      
-      "DistAPI":{
-        "kind":"rest",
-        "credentials":{
-          "destination":"districtAPI"
+  "cds": {
+    "requires": {
+      "DistAPI": {
+        "kind": "rest",
+        "credentials": {
+          "destination": "districtAPI"
         }
       },
-
-      "place":{
-        "kind":"odata-v4",
-        "credentials":{
-          "destination":"DistAPI"
+      "place": {
+        "kind": "odata-v4",
+        "credentials": {
+          "destination": "DistAPI"
         }
       }
     }
