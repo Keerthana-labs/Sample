@@ -1,0 +1,6 @@
+ID,name,age,disease,hospital_ID
+P001,Rahul Sharma,45,Diabetes,HSP001
+P002,Priya Iyer,32,Fever,HSP002
+P003,Amit Verma,50,Heart Disease,HSP003
+P004,Sneha Reddy,27,Asthma,HSP004
+P005,Arjun Patel,39,Hypertension,HSP005
