@@ -1,0 +1,4 @@
+ID,Name,Phone,Email,Fees,Address_Street,Address_City,Address_Pincode
+S001,Ravi Kumar,9876543210,ravi.kumar@example.com,25000,12 Gandhi Road,Chennai,600001
+S002,Priya Sharma,9876543211,priya.sharma@example.com,28000,45 Anna Nagar,Coimbatore,641001
+S003,Arun Prakash,9876543212,arun.prakash@example.com,30000,78 MG Street,Madurai,625001
