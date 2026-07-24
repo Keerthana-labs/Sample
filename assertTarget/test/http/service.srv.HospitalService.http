@@ -1,0 +1,93 @@
+@server=http://localhost:4004
+@username=alice
+@password=
+
+
+### Hospitals
+# @name Hospitals_GET
+GET {{server}}/odata/v4/hospital/Hospitals
+Authorization: Basic {{username}}:{{password}}
+
+
+### Hospitals
+# @name Hospitals_POST
+POST {{server}}/odata/v4/hospital/Hospitals
+Content-Type: application/json
+Authorization: Basic {{username}}:{{password}}
+
+{
+  "ID": "H11",
+  "Name": "Name-536283",
+  "Address": "Address-536283",
+  "Rating": 97
+}
+
+
+### Hospitals
+# @name Hospitals_PATCH
+PATCH {{server}}/odata/v4/hospital/Hospitals/536283
+Content-Type: application/json
+Authorization: Basic {{username}}:{{password}}
+
+{
+  "ID": 536283,
+  "Name": "Name-536283",
+  "Address": "Address-536283",
+  "Rating": 97
+}
+
+
+### Hospitals
+# @name Hospitals_DELETE
+DELETE {{server}}/odata/v4/hospital/Hospitals/536283
+Content-Type: application/json
+Authorization: Basic {{username}}:{{password}}
+
+
+### Doctors
+# @name Doctors_GET
+GET {{server}}/odata/v4/hospital/Doctors
+Authorization: Basic {{username}}:{{password}}
+
+
+### Doctors
+# @name Doctors_POST
+POST {{server}}/odata/v4/hospital/Doctors
+Content-Type: application/json
+Authorization: Basic {{username}}:{{password}}
+
+{
+  "ID": 140,
+  "Name": "Apollo Hospital",
+  "Specialization": "Eye Care",
+  "Contact": "9364728201",
+  "Location": "Madurai",
+  "Hospital": {
+    "ID": 536283
+  }
+}
+
+
+### Doctors
+# @name Doctors_PATCH
+PATCH {{server}}/odata/v4/hospital/Doctors/14073166
+Content-Type: application/json
+Authorization: Basic {{username}}:{{password}}
+
+{
+  "ID": 14073166,
+  "Name": "Name-14073166",
+  "Specialization": "Specialization-14073166",
+  "Contact": "Contact-14073166",
+  "Location": "Location-14073166",
+  "Hospital": {
+    "ID": 536283
+  }
+}
+
+
+### Doctors
+# @name Doctors_DELETE
+DELETE {{server}}/odata/v4/hospital/Doctors/14073166
+Content-Type: application/json
+Authorization: Basic {{username}}:{{password}}

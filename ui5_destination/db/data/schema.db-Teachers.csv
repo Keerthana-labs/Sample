@@ -1,0 +1,6 @@
+ID,Name,Email,Contact,Salary,studRef_ID
+T101,Arun Kumar,arun.kumar@example.com,9876543210,55000,S101
+T102,Priya Sharma,priya.sharma@example.com,9123456780,60000,S102
+T103,Rahul Verma,rahul.verma@example.com,9988776655,58000,S103
+T104,Meena Iyer,meena.iyer@example.com,9012345678,62000,S104
+T105,Vignesh Raj,vignesh.raj@example.com,9876501234,57000,S105
