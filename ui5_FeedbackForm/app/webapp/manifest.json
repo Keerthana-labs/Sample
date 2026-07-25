@@ -1,0 +1,43 @@
+{
+  "_version": "2.8.0",
+  "sap.app": {
+    "id": "ui5.feedbackform",
+    "type": "application",
+    "title": "UI5 FeedbackForm",
+    "applicationVersion": {
+      "version": "1.0.0"
+    }
+  },
+  "sap.ui5": {
+    "resources": {
+    "css": [
+      {
+        "uri": "css/style.css"
+      }
+    ]
+  },
+    "rootView": {
+      "viewName": "ui5.feedbackform.view.App",
+      "type": "XML",
+      "async": true,
+      "id": "App"
+    },
+    "models": {
+      "i18n": {
+        "type": "sap.ui.model.resource.ResourceModel",
+        "settings": {
+          "bundleName": "ui5.feedbackform.i18n.i18n",
+          "supportedLocales": ["en", "hi", "ta", "de"],
+          "fallbackLocale": ""
+        }
+      }
+    },
+    "dependencies": {
+      "minUI5Version": "1.120",
+      "libs": {
+        "sap.m": {},
+        "sap.ui.core": {}
+      }
+    }
+  }
+}

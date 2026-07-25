@@ -1,0 +1,21 @@
+/* Center the form container on the page */
+.feedbackFormWrapper {
+    max-width: 500px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+/* Optional styling adjustments */
+.feedbackFormWrapper .sapMPageBg {
+    background-color: #f5f7fa;
+}
+
+.feedbackTitle {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #1a2530;
+    margin-bottom: 1rem;
+}
