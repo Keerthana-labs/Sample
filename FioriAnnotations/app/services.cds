@@ -1,3 +1,0 @@
-
-
-using from './fioriannotations/annotations';
