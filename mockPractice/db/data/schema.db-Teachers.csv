@@ -1,0 +1,4 @@
+ID,Name,Contact,Email,Salary,Address,createdAt,createdBy,modifiedAt,modifiedBy,validFrom,validTo
+T001,Rajesh Kumar,9876543210,rajesh.kumar@example.com,55000,"12 Anna Nagar, Chennai",2026-01-10T09:00:00Z,admin,2026-05-15T14:30:00Z,admin,2026-01-01,2026-12-31
+T002,Priya Sharma,9876543211,priya.sharma@example.com,60000,"45 RS Puram, Coimbatore",2026-01-12T10:15:00Z,admin,2026-05-18T11:20:00Z,manager,2026-01-01,2026-12-31
+T003,Arun Prakash,9876543212,arun.prakash@example.com,58000,"78 KK Nagar, Madurai",2026-01-15T08:45:00Z,admin,2026-05-20T16:10:00Z,manager,2026-01-01,2026-12-31

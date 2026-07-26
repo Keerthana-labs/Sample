@@ -1,0 +1,11 @@
+EmpID,Name,Department,Salary,Age,City,JoinDate
+E001,Raj Kumar,IT,55000.00,25,Chennai,2023-01-15
+E002,Priya Sharma,HR,45000.00,28,Bangalore,2022-06-20
+E003,Arun Kumar,Finance,60000.00,30,Hyderabad,2021-09-10
+E004,Divya Rani,IT,70000.00,32,Chennai,2020-12-05
+E005,Vikram Singh,Marketing,50000.00,27,Mumbai,2023-03-18
+E006,Anjali Devi,HR,48000.00,26,Delhi,2022-11-25
+E007,Karthik M,IT,75000.00,35,Coimbatore,2019-07-12
+E008,Sneha Patel,Finance,62000.00,29,Ahmedabad,2021-05-30
+E009,Rahul Verma,Marketing,53000.00,31,Pune,2020-08-14
+E010,Meena S,IT,68000.00,33,Madurai,2018-10-22

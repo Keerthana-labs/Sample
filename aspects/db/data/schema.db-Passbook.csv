@@ -1,0 +1,11 @@
+ID,BranchName,Location,validFrom,validTo,Date,Name
+B101,Main Branch,Chennai,2024-01-01,2024-12-31,2024-01-01,Arun
+B102,City Branch,Madurai,2024-02-01,2025-01-31,2024-02-01,Priya
+B103,North Branch,Coimbatore,2024-03-15,2025-03-14,2024-03-15,Karthik
+B104,South Branch,Trichy,2024-04-10,2025-04-09,2024-04-10,Anitha
+B105,West Branch,Salem,2024-05-20,2025-05-19,2024-05-20,Vijay
+B106,East Branch,Tirunelveli,2024-06-05,2025-06-04,2024-06-05,Meena
+B107,Central Branch,Erode,2024-07-12,2025-07-11,2024-07-12,Suresh
+B108,Lake Branch,Vellore,2024-08-18,2025-08-17,2024-08-18,Divya
+B109,Hill Branch,Thanjavur,2024-09-25,2025-09-24,2024-09-25,Ramesh
+B110,River Branch,Chennai,2024-10-30,2025-10-29,2024-10-30,Kavya

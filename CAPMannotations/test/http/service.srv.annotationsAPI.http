@@ -1,0 +1,144 @@
+@server=http://localhost:4004
+@username=alice
+@password=
+
+
+### stud
+# @name stud_GET
+GET {{server}}/odata/v4/annotations-api/stud
+Authorization: Basic {{username}}:{{password}}
+
+
+### stud
+# @name stud_POST
+POST {{server}}/odata/v4/annotations-api/stud
+Content-Type: application/json
+Authorization: Basic {{username}}:{{password}}
+
+{
+  "ID": "S45",
+  "Name": "keeri",
+  "Address": "Madurai",
+  "Age": "22",
+  "Contact": 9342675849,
+  "Email": "Keerib1510@gmail.com",
+  "Fees": 45000
+}
+
+
+### stud
+# @name stud_PATCH
+PATCH {{server}}/odata/v4/annotations-api/stud/stud-8585036
+Content-Type: application/json
+Authorization: Basic {{username}}:{{password}}
+
+{
+  "ID": "S45",
+  "Name": "keeri",
+  "Address": "Tmm",
+  "Age": "22",
+  "Contact": 9342675849,
+  "Email": "Keerib1510@gmail.com",
+  "Fees": 45000
+}
+
+
+### stud
+# @name stud_DELETE
+DELETE {{server}}/odata/v4/annotations-api/stud/stud-8585036
+Content-Type: application/json
+Authorization: Basic {{username}}:{{password}}
+
+
+### junc
+# @name junc_GET
+GET {{server}}/odata/v4/annotations-api/junc
+Authorization: Basic {{username}}:{{password}}
+
+
+### junc
+# @name junc_POST
+POST {{server}}/odata/v4/annotations-api/junc
+Content-Type: application/json
+Authorization: Basic {{username}}:{{password}}
+
+{
+  "StudID": {
+    "ID": "stud-8585036"
+  },
+  "TeachID": {
+    "ID": "teach-8668890"
+  }
+}
+
+
+### junc
+# @name junc_PATCH
+PATCH {{server}}/odata/v4/annotations-api/junc(StudID=[object Object],TeachID=[object Object])
+Content-Type: application/json
+Authorization: Basic {{username}}:{{password}}
+
+{
+  "StudID": {
+    "ID": "stud-8585036"
+  },
+  "TeachID": {
+    "ID": "teach-8668890"
+  }
+}
+
+
+### junc
+# @name junc_DELETE
+DELETE {{server}}/odata/v4/annotations-api/junc(StudID=[object Object],TeachID=[object Object])
+Content-Type: application/json
+Authorization: Basic {{username}}:{{password}}
+
+
+### teach
+# @name teach_GET
+GET {{server}}/odata/v4/annotations-api/teach
+Authorization: Basic {{username}}:{{password}}
+
+
+### teach
+# @name teach_POST
+POST {{server}}/odata/v4/annotations-api/teach
+Content-Type: application/json
+Authorization: Basic {{username}}:{{password}}
+
+{
+  "ID": "teach-8668890",
+  "Name": "Name-8668890",
+  "Department": "Department-8668890",
+  "Address": "Address-8668890",
+  "Age": "Age-8668890",
+  "Contact": 33,
+  "Email": "Email-8668890",
+  "Salary": 26
+}
+
+
+### teach
+# @name teach_PATCH
+PATCH {{server}}/odata/v4/annotations-api/teach/teach-8668890
+Content-Type: application/json
+Authorization: Basic {{username}}:{{password}}
+
+{
+  "ID": "teach-8668890",
+  "Name": "Name-8668890",
+  "Department": "Department-8668890",
+  "Address": "Address-8668890",
+  "Age": "Age-8668890",
+  "Contact": 33,
+  "Email": "Email-8668890",
+  "Salary": 26
+}
+
+
+### teach
+# @name teach_DELETE
+DELETE {{server}}/odata/v4/annotations-api/teach/teach-8668890
+Content-Type: application/json
+Authorization: Basic {{username}}:{{password}}
